@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE</title>
+</head>
+<body>
+    
+    <!-- HEADER: Cabeçalho principal do site -->
+    <header>
+        <!-- NAV: Menu de navegação -->
+        <nav>
+            <ul>
+                <li>
+                    <!-- href="#" recarrega a página ou volta ao topo -->
+                    <a href="#">Início</a>
+                </li>
+                <li>
+                    <a href="./sobre.html">SOBRE</a>
+                </li>
+                <li>
+                    <a href="./contato.html">CONTATO</a>
+                </li>
+                <li>
+                    <!-- Âncora: O href="#secao-img" procura o elemento que tem o id="secao-img" -->
+                    <a href="#secao-img">IFCE</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN: Conteúdo principal da página (tudo que é importante vai aqui) -->
+    <main>
+        
+        <!-- SECTION: Agrupamento de assunto -->
+        <section>
+            <h1>Minha primeira seção</h1>
+        </section>
+        
+        <section>
+            <!-- MARK: Usado para destacar (grifar) um texto -->
+            <mark>MELHOR TURMA DO CAMPUS</mark>
+        </section>
+
+        <!-- Seção da Tabela de Supermercado -->
+        <section>
+            <h1>LISTA DE PRODUTOS (SUPERMERCADO)</h1>
+            <!-- Tabela com borda simples -->
+            <table border="1">
+                <!-- THEAD: Cabeçalho da tabela -->
+                <thead>
+                    <tr> <!-- TR: Linha da tabela -->
+                        <th>NOME</th>  <!-- TH: Célula de título (fica em negrito) -->
+                        <th>MARCA</th>
+                        <th>VALOR</th>
+                    </tr>
+                </thead>
+                <!-- TBODY: Corpo da tabela (onde ficam os dados reais) -->
+                <tbody>
+                    <tr>
+                        <td>ARROZ</td> <!-- TD: Célula de dado normal -->
+                        <td>URBANO</td>
+                        <td>R$ 4,00</td>
+                    </tr>
+                    <tr>
+                        <td>FEIJÃO</td>
+                        <td>TIO MÁRCIO</td>
+                        <td>R$ 6,00</td>
+                    </tr>
+                    <tr>
+                        <td>CAFÉ</td>
+                        <td>SANTA CLARA</td>
+                        <td>R$ 14,00</td>
+                    </tr>
+                    <tr>
+                        <td>MACARRÃO</td>
+                        <td>ESTRELA</td>
+                        <td>R$ 3,50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Seção da Tabela de Pessoas -->
+        <section>
+            <h2> Lista de pessoas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Curso</th>
+                        <th>Campus</th>
+                        <th>Cidade</th>
+                        <th>Cell</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Angélica</td>
+                        <td>19</td>
+                        <td>A.D.S</td>
+                        <td>Boa Viagem/Ce</td>
+                        <td>MT</td>
+                        <td>(85)4002-8922</td>
+                    </tr>
+                    <tr>
+                        <td>Marcos</td>
+                        <td>19</td>
+                        <td>A.D.S</td>
+                        <td>Boa Viagem/Ce</td>
+                        <td>BV</td>
+                        <td>(88)99780-5007</td>
+                    </tr>
+                    <tr>
+                        <td>J. Neto</td>
+                        <td>19</td>
+                        <td>A.D.S</td>
+                        <td>Boa Viagem/Ce</td>
+                        <td>Madalena/Ce</td>
+                        <td>(85)99770-7836</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <!-- O id="secao-img" é o "CPF" dessa seção. O link do menu aponta para cá. -->
+        <section id="secao-img">
+            <!-- O atributo alt é essencial para quando a imagem quebra ou para leitores de tela -->
+            <img src="./assets/ifce-bv.jpg" alt="Fachada do Campus IFCE Boa Viagem">
+        </section>
+
+    </main>
+
+    <!-- FOOTER: Rodapé da página -->
+    <footer>
+        <p>&copy; TODOS OS DIREITOS RESERVADOS</p>
+    </footer>
+
+</body>
+</html>
