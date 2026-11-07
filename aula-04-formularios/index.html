@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULÁRIO</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <h1>CADASTRO DE ALUNOS - IFCE</h1>
-    <form>
+    <div id="caixa-cadastro">
+        <form>
         <label for="name">NOME:</label>
         <br>
         <input type="text" id="name">
@@ -47,6 +49,10 @@
         <label for="tarde">TARDE</label>
         <input type="radio" name="turnos" id="noite">
         <label for="noite">NOITE</label>
+        <br><br>
+        <button type="submit">CADASTRAR</button>
     </form>
+    </div>
+    
 </body>
 </html>

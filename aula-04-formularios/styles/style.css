@@ -1,0 +1,20 @@
+#caixa-cadastro{
+    border: solid 2px;
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+input{
+    margin-bottom: 22px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
